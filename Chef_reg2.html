@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v1 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css2/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper" style="background-image: url('img/bg-registration-form-1.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+					<img src="img/registration-form-1.jpg" alt="">
+				</div>
+				<form action="chef_details.php" method="post">
+					<h3>Registration Form</h3>
+					<div class="form-group">
+						<input type="text" placeholder="First Name" class="form-control" name="FirstName" id="fname" required>
+						<input type="text" placeholder="Last Name" class="form-control" name="LastName" id="lname" required>
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Experience" class="form-control" name="Experience" id="exp" required>
+						<input type="text" placeholder="Age" class="form-control" name="Age" id="age" required>
+						
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Phone Number" class="form-control" name="number" id="num" required>
+					</div>
+		
+					<div class="form-wrapper">
+						<select name="gender" id="gender" class="form-control" required>
+							<option value="" disabled selected>Gender</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Address" class="form-control" name="Add" id="address" required>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="City" class="form-control" name="City" id="city" required>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Zip Code" class="form-control" name="zip_code" id="zipcode" required>
+					</div>
+					<div class="form-wrapper">
+						<input type="text" placeholder="Your State" class="form-control" name="state" id="state" required>
+					</div>
+					<button type="submit">Register
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
